@@ -12,7 +12,7 @@ python_button.click()
 text_area = driver.find_element_by_id('textarea')
 text_area.send_keys("print('Hello World')")
 driver.back()
-# click submit button
+# click submit butto
 submit_button = driver.find_elements_by_xpath('//*[@id="editor"]/table/tbody/tr[3]/td/table/tbody/tr/td/div/table/tbody/tr/td[3]/input')[0]
 submit_button.click()
 
